@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+  
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: rgb(223, 48, 66);
+        }
+  
+        .gfg{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1000px;
+            flex-wrap: wrap;
+            z-index: 1;
+        }
+           
+        .gfg .card{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 60px;
+            box-shadow: 20px 20px 50px rgb(0,0,0,0.4);
+            border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(6px);
+        }
+  
+        .gfg .card .content{
+            padding: 40px;
+            text-align: center;
+        }
+        a.laundrex {
+            color: black;
+            font-weight: bold;
+          }
+          
+          a.laundrex:hover {
+            color: red;
+          }
+    </style>
+    <link rel="stylesheet" href="app.css">
+</head>
+  
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="Chettiar Infotech">
+    </div>
+</div>
+    <div class="gfg">
+        <div class="card">
+            <div class ="content">
+                <h2>Website under maintaince</h2>
+                
+                <h3> 
+                    </h3>
+                <p>
+                    Something cool is cooking up please wait... 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Till then check our works</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+           
+            <div class="portfolio-info">
+                <a href="https://eventkart.co.in/" class="laundrex">EventKart</a>
+              <p>Event curator website</p>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Logo2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+                <a href="https://duskanddawnresort.com/" class="laundrex">DUSK AND DAWN</a>
+              <p>Hotel booking site</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/duskndawn.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hotel website made by us"><i class="bx bx-plus"></i></a>
+                <a href="https://laundriex.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Logo3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+                <a href="https://laundriex.com/" class="laundrex">LAUNDREIX SERVICES</a>
+              <p>Website made for a laundry services</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/musafir.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Community website"><i class="bx bx-plus"></i></a>
+                <a href="" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+    <script src="vanilla-tilt.js">
+    </script>
+      
+    <script>
+        VanillaTilt.init(document.querySelector(".card"), {
+          max: 40,
+          speed: 800,
+          glare: true,
+          "max-glare": 2.5,
+        });
+    </script>
+    
+    
+</html>
